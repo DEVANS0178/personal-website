@@ -1,0 +1,177 @@
+*{
+
+    margin: 0;
+    padding: 0; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+#logo{
+
+    width: 400px;
+    height: auto;
+    margin: 0 0 0 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+.navbar{
+
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+}
+.logo{
+
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar{
+
+    color: white;
+}
+.navbar a{
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navbar a :hover{
+
+    text-decoration: underline;
+    color: white;
+}
+
+
+.content{
+
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+#img2{
+    
+    width: 400px;
+    height: auto;
+    margin: 0 0 0 25px;
+    display: block;
+    float: left;
+    
+}
+.img2{
+
+    width: 120px;
+    cursor: pointer;
+    top: -20px;
+    position: absolute;
+}
+.row1{
+    padding:5px;
+}
+.column1 {
+    float: left;
+    width: 32%;
+    padding: 7%;
+    min-height: 50px;
+    padding: ;
+   
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.column2 {
+    float: right;
+    width: 32%;
+    padding: 10%;
+    min-height: 50px;
+    
+}
+footer{
+    background: gray;
+    padding: 40px;
+}
+footer p{
+
+    color: white;
+}
+#logo2{
+
+    padding: 50px;
+}
+h2{
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+body p{
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#img3{
+
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    
+}
+#img4{
+
+    
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 50%;
+}
+h3{
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#img3 {
+  width: 50%;
+  
+  object-fit: cover;
+  object-position: bottom;
+}
+#img4 {
+  
+  
+  object-fit: cover;
+  object-position: bottom;
+}
+h4{
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
